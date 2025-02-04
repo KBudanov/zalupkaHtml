@@ -13,21 +13,60 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }
     });
     gsap.to('.w1', {
-        color: "#7e0ff3",
-        delay: 1,
         ease: 'elastick',
-        opacity: 1,
         x: -200
     });
     gsap.to('.w3', {
-        color: "#7e0ff3",
-        delay: 1,
         ease: 'elastick',
-
         x: 200
     });
-});
+    gsap.fromTo('.myLove', { x: -400, opacity: 0 }, {
+        x: 0,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: '.aboutAss',
+            start: '-100%',
+            end: '+=800px',
+            scrub: true,
+            toggleActions: 'play none reverse none',
 
-function texttt() {
-    alert("scrolled");
-}
+        }
+    });
+    gsap.fromTo('.gay1', { y: 600, opacity: 0 }, {
+        y: 0,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: '.mainContentGays',
+            start: '-20%',
+            end: '+=300px',
+            scrub: true,
+            toggleActions: 'play none reverse none',
+            markers: true,
+        }
+    });
+    gsap.fromTo('.gay2', { y: 600, opacity: 0 }, {
+        y: 0,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: '.gay1',
+            start: '-120%',
+            end: '+=300px',
+            scrub: true,
+            toggleActions: 'play none reverse none',
+            markers: true,
+        }
+    });
+    gsap.fromTo('.gay3', { y: 600, opacity: 0 }, {
+        y: 0,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: '.gay2',
+            start: '-120%',
+            end: '+=300px',
+            scrub: true,
+            toggleActions: 'play none reverse none',
+            markers: true,
+        }
+    });
+
+});
