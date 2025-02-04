@@ -128,3 +128,25 @@ a {
     border-bottom: 3px solid black;
     border-top: 3px solid black;
 }
+
+.shitBox {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.imgImg {
+    border-top: 3px solid black;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+.flyingShit {
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 15%;
+    font-size: 32px;
+    font-weight: 700;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 1);
+    color: whitesmoke;
+}

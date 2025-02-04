@@ -14,11 +14,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
     gsap.to('.w1', {
         ease: 'elastick',
-        x: -200
+        x: -200,
+        delay: 1
     });
     gsap.to('.w3', {
         ease: 'elastick',
-        x: 200
+        x: 200,
+        delay: 1
     });
     gsap.fromTo('.myLove', { x: -400, opacity: 0 }, {
         x: 0,
@@ -41,7 +43,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             end: '+=300px',
             scrub: true,
             toggleActions: 'play none reverse none',
-            markers: true,
+
         }
     });
     gsap.fromTo('.gay2', { y: 600, opacity: 0 }, {
@@ -53,7 +55,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             end: '+=300px',
             scrub: true,
             toggleActions: 'play none reverse none',
-            markers: true,
+
         }
     });
     gsap.fromTo('.gay3', { y: 600, opacity: 0 }, {
@@ -65,8 +67,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
             end: '+=300px',
             scrub: true,
             toggleActions: 'play none reverse none',
-            markers: true,
+
         }
+    });
+    gsap.fromTo('.flyingShit', { x: 1500 }, {
+        delay: 0.5,
+        ease: 'elastick',
+        x: 0,
+        scrollTrigger: '.shitBox'
     });
 
 });
