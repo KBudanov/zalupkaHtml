@@ -17,10 +17,11 @@ a {
 }
 
 .navigation {
+    position: fixed;
+    top: 0;
     width: 20%;
     height: 100%;
     border-right: 3px solid black;
-    position: fixed;
 }
 
 .logo {
@@ -34,4 +35,30 @@ a {
     font-weight: 600;
     color: black;
     margin-top: 200px;
+}
+
+.box {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 2000px;
+    margin-bottom: 200px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.starterText {
+    width: 80%;
+    height: 300px;
+    font-size: 55px;
+    font-weight: 700;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 200px;
+    border-bottom: 2px solid black;
+}
+
+.starterText {
+    display: flex;
+    justify-content: center;
 }
