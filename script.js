@@ -12,23 +12,29 @@ document.addEventListener("DOMContentLoaded", (event) => {
             console.log("fsadfa")
         }
     });
-    gsap.to('.w1', {
+    gsap.fromTo('.w1', { x: -200 }, {
         ease: 'elastick',
-        x: -200,
+        x: -10,
         delay: 1
     });
-    gsap.to('.w3', {
+    gsap.fromTo('.w3', { x: 200 }, {
         ease: 'elastick',
-        x: 200,
-        delay: 1
+        x: 10,
+        delay: 1,
+
     });
-    gsap.fromTo('.myLove', { x: -400, opacity: 0 }, {
-        x: 0,
+    gsap.to('.starterText', {
+        delay: 1,
+        opacity: 1
+    });
+
+    gsap.fromTo('.myLove', { x: -600, opacity: 0 }, {
+        x: 15,
         opacity: 1,
         scrollTrigger: {
             trigger: '.aboutAss',
-            start: '-100%',
-            end: '+=800px',
+            start: '-90%',
+            end: '+=600px',
             scrub: true,
             toggleActions: 'play none reverse none',
 
