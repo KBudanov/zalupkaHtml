@@ -384,3 +384,293 @@ a {
     font-size: 55px;
     font-weight: 700;
 }
+
+
+/*adaptivity*/
+
+@media screen and (max-width: 1599px) {
+    .rotateImg {
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .myLove {
+        height: 60vh;
+        margin-top: 50px;
+    }
+    .gayPhoto1 {
+        height: 20%;
+        margin-top: 25px;
+    }
+    .gayPhoto2 {
+        height: 600px;
+        margin-top: 25px;
+    }
+    .gayText {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .kolyaImg {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .prImg {
+        width: 120px;
+        margin: 53px 50px 75px 60px;
+    }
+    .footerLoc {
+        font-size: 24px;
+    }
+    .logoFooter {
+        position: absolute;
+        right: 60px;
+        margin-top: -280px;
+        color: whitesmoke;
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .partnesrWr {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .myLove {
+        height: 45vh;
+        margin-top: 95px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .myLove {
+        height: 40vh;
+        margin-top: 95px;
+    }
+    .rotateImg {
+        margin-left: -10px;
+        margin-top: 25px;
+    }
+    .aboutAsstxt {
+        font-size: 20px !important;
+        padding-top: 40px;
+    }
+    .gayText {
+        font-size: 18px;
+    }
+    .gayPhoto1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .gayPhoto2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .flyingShit2 {
+        font-size: 22px;
+        margin-left: 300px;
+    }
+    .flyingShit {
+        font-size: 22px;
+        margin-left: 250px;
+    }
+    .prImg {
+        width: 90px;
+        margin: 53px 50px 75px 40px;
+    }
+    .footerCont div a {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    .logoFooter {
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 80px;
+        width: 100%;
+        border-right: 3px solid black;
+        background-color: whitesmoke;
+        z-index: 100;
+        border-bottom: 3px solid whitesmoke;
+    }
+    .logo {
+        text-align: center;
+        height: 60px;
+        width: 100px;
+        border-bottom: 3px solid black;
+        background-color: black;
+        margin-top: -40px;
+        padding-bottom: 10px;
+    }
+    .logo a {
+        color: whitesmoke;
+        font-size: 25px;
+        margin-top: -125px;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navLinks {
+        display: none;
+    }
+    .logo2 {
+        margin-top: -20px;
+        margin-left: 30px;
+    }
+    .rotateImg {
+        width: 120px;
+    }
+    .starterText {
+        margin-left: 0;
+        margin-top: 80px;
+        width: 100%;
+        background: url('https://cdn.prod.website-files.com/5f370e64e5ef2b186800c1c8/66ed96863879bf1aa2f18b6d_JPEG%20-%202048px%20for%20web%20use_100CANON%20copy.jpg');
+        background-size: 660px 850px;
+        background-position-x: center;
+    }
+    .w1,
+    .w3 {
+        font-size: 22px;
+        height: 30px;
+    }
+    .aboutAss {
+        margin-top: -105px;
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .avoutAssDiv {
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+        background: url('https://s3-eu-west-1.amazonaws.com/digbmx/articles/_800x1202_crop_center-center_82_none/134580/P23_7304-copy-2.webp');
+        background-size: 100% auto;
+    }
+    .myLove {
+        display: none;
+    }
+    .aboutAsstxt {
+        font-size: 12px !important;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 5px;
+        margin-left: 220px !important;
+        padding: 5px;
+        margin-top: 85px !important;
+    }
+    .myLoveMob {
+        display: block !important;
+        position: absolute;
+        top: 1110px;
+        left: 20px;
+        border-radius: 15px;
+        width: 150px;
+    }
+    .gayTeam {
+        width: 100%;
+        margin-left: 0;
+    }
+    .gayPhoto {
+        width: 90%;
+        margin-left: 5%;
+        border-radius: 15px;
+    }
+    .gayInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    .gayText {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+    .gayPhoto2 {
+        height: 30%;
+    }
+    .deleteMob {
+        display: none !important;
+    }
+    .zalupaScreen2 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: -10px;
+    }
+    .flyingShit2 {
+        font-size: 12px;
+        width: 150px;
+    }
+    .shitBox {
+        width: 100%;
+        margin-left: 0;
+        margin-top: -10px;
+    }
+    .items_grid {
+        display: none !important;
+    }
+    .items_gridMOB {
+        display: block;
+    }
+    .line11 {
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 20px;
+    }
+    .item {
+        width: 45%;
+    }
+    .zalupaScreen {
+        margin-left: 0;
+        width: 100%;
+    }
+    .zalupaScreenImg {
+        content: url('https://www.fatbmx.com/images/2024_10/2024_11/2024_012/pasha_sitko_0-3.jpg');
+    }
+    .flyingShit {
+        font-size: 12px;
+        width: 200px;
+    }
+    .partnersScreen {
+        width: 100%;
+        margin-left: 0;
+    }
+    .prImg {
+        width: 50px;
+    }
+    .partners {
+        margin-left: -150px;
+    }
+    .lastScreen {
+        width: 100%;
+        margin-left: 0;
+    }
+    .footerLoc {
+        font-size: 12px;
+    }
+    .footerCont div a {
+        font-size: 10px;
+        padding-top: 20px;
+    }
+    .footer2wr div p {
+        font-size: 14px;
+    }
+    .logoFooter {
+        padding-top: 40px;
+        font-size: 32px;
+    }
+}
+
+.items_gridMob {
+    display: none !important;
+}
+
+.deleteMob {
+    display: block;
+}
+
+.myLoveMob {
+    display: none;
+}

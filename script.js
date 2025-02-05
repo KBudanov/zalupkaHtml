@@ -40,6 +40,18 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
         }
     });
+
+    /* gsap.fromTo('.myLoveMob', { x: -600, opacity: 0 }, {
+         x: 0,
+         opacity: 1,
+         scrollTrigger: {
+             trigger: '.gayTeam',
+
+             scrub: true,
+             toggleActions: 'play none reverse none',
+             markers: true
+         }
+     });*/
     gsap.fromTo('.gay1', { y: 600, opacity: 0 }, {
         y: 0,
         opacity: 1,
