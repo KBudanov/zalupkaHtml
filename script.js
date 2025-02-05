@@ -89,4 +89,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
         scrollTrigger: '.zalupaScreen2'
     });
 
+    gsap.fromTo('.rotateImg', { rotation: 0 }, {
+        rotation: 45,
+        scrollTrigger: {
+            trigger: '.starterText',
+            start: '+=10px',
+            end: '+=6500px',
+            scrub: true,
+            toggleActions: 'play none reverse none',
+
+        }
+    });
+
 });

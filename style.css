@@ -17,6 +17,38 @@ a {
     text-decoration: none;
 }
 
+.navList {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navList li {
+    margin-top: 5px;
+}
+
+.rotateImg {
+    width: 250px;
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.navlistA {
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+.navLinks {
+    border-bottom: 3px solid black;
+}
+
+.navlistA:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
 .navigation {
     position: fixed;
     top: 0;
@@ -31,6 +63,15 @@ a {
     text-align: center;
     height: 215px;
     border-bottom: 3px solid black;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.logo a {
+    color: whitesmoke;
+    font-size: 55px;
+    font-size: 700 !important;
+    margin-top: 40px;
 }
 
 .logo span {
@@ -273,4 +314,73 @@ a {
     margin-left: 20%;
     height: 40vh;
     border: 3px solid black;
+}
+
+.lastScreen {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.footerLoc,
+.footerCont {
+    margin: 0;
+    border-bottom: 3px solid whitesmoke;
+    border-right: 3px solid whitesmoke;
+    width: 30vw;
+    height: 20vh;
+}
+
+.footer1Wr {
+    display: flex;
+}
+
+.footerCont {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerCont div {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerCont div a {
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.footerLoc {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer2wr p {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footerLoc p {
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.footer2wr {
+    margin-top: -40px;
+    margin-left: 5px;
+    width: 60vw;
+    height: 20vh;
+    border-right: 3px solid whitesmoke;
+}
+
+.logoFooter {
+    position: absolute;
+    right: 110px;
+    margin-top: -280px;
+    color: whitesmoke;
+    font-size: 55px;
+    font-weight: 700;
 }
