@@ -165,7 +165,8 @@ a {
     border-bottom: 3px solid black;
 }
 
-.flyingShit {
+.flyingShit,
+.flyingShit2 {
     position: absolute;
     margin-top: -40%;
     margin-left: 15%;
@@ -225,4 +226,44 @@ a {
 
 .shitBox {
     background-color: black;
+}
+
+.zalupaScreen,
+.zalupaScreen2 {
+    width: 80%;
+    margin-left: 20%;
+    height: auto;
+}
+
+.zalupaScreen2 img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.zalupaScreen img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.partnersScreen {
+    margin-top: -5px;
+    width: 90%;
+    margin-left: 20%;
+    height: auto;
+    border-bottom: 3px solid black;
+}
+
+.partnesrWr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.partners {
+    display: flex;
+    flex-direction: row;
+}
+
+.prImg {
+    width: 200px;
+    margin: 5px 50px 75px 60px;
 }

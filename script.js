@@ -79,8 +79,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.fromTo('.flyingShit', { x: 1500 }, {
         delay: 0.5,
         ease: 'elastick',
-        x: 0,
-        scrollTrigger: '.shitBox'
+        x: -200,
+        scrollTrigger: '.zalupaScreen'
+    });
+    gsap.fromTo('.flyingShit2', { x: 1500 }, {
+        delay: 0.5,
+        ease: 'elastick',
+        x: -200,
+        scrollTrigger: '.zalupaScreen2'
     });
 
 });
