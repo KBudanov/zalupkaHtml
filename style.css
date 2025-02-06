@@ -653,6 +653,7 @@ a {
     .lastScreen {
         width: 100%;
         margin-left: 0;
+        overflow-x: hidden;
     }
     .footerLoc {
         font-size: 12px;
