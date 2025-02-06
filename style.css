@@ -487,6 +487,12 @@ a {
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+    .partnersScreen {
+        overflow-x: hidden;
+    }
     .navigation {
         position: fixed;
         top: 0;
@@ -611,8 +617,8 @@ a {
     .items_grid {
         display: none !important;
     }
-    .items_gridMOB {
-        display: block;
+    .items_gridMob {
+        display: block !important;
     }
     .line11 {
         width: 80%;
@@ -664,7 +670,7 @@ a {
 }
 
 .items_gridMob {
-    display: none !important;
+    display: none;
 }
 
 .deleteMob {
