@@ -27,7 +27,6 @@ function fullScreenAnim() {
                 end: '+=600px',
                 scrub: true,
                 toggleActions: 'play none reverse none',
-
             }
         });
         gsap.fromTo('.gay1', { y: 600, opacity: 0 }, {
@@ -138,9 +137,7 @@ if (wdt < 480) {
     fullScreenAnim()
 }
 
-
-
-function myFunction(x) {
+function nav(x) {
     x.classList.toggle("change");
     $(".mobileNav").toggle();
 
